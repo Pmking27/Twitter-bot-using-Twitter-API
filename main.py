@@ -2,8 +2,6 @@ import tweepy
 from time import sleep
 import os
 
-
-
 API_Key = os.environ.get("API_Key")
 API_Key_Secret = os.environ.get("API_Key_Secret")
 Bearer_Token = os.environ.get("Bearer_Token")
